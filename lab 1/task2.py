@@ -9,6 +9,7 @@ while True:
         for i in nums:
             if n.count(i):
                 flag = 1
+                break
                 
     if flag:
         print("invalid Binary Number")

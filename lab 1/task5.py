@@ -1,6 +1,6 @@
 while True:
     name = input("Enter Your Name : ")
-    if not name or name.isdigit():
+    if not name or not name.isalpha():
         print("not valid Name")
         continue
 
