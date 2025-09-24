@@ -5,6 +5,8 @@ def check(n):
         return "Fizz"
     elif n % 5 == 0:
         return "buzz" 
+    else :
+        return "invalid Number"
 
 
 
