@@ -7,6 +7,6 @@ while True:
         break
 radius = int(n)
 area = 3.14 * radius ** 2
-circumference = 2 * 3.14159 * radius
+circumference = 2 * 3.14 * radius
 print("Area of the circle:", round(area,2))
 print("Circumference of the circle:", round(circumference,2))
