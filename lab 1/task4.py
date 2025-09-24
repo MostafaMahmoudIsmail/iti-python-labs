@@ -1,6 +1,6 @@
 while True:
     n = input("Enter The radius of the circle : ")
-    if n.isalpha():
+    if n.isalpha() or not n.isdigit():
         print("Not Valid Num")
         continue
     else :

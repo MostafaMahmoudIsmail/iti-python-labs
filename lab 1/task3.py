@@ -11,7 +11,7 @@ def check(n):
 
 while True:
     n = input("Enter The Number : ")
-    if n.isalpha():
+    if n.isalpha() or not n.isdigit():
         print("Invalid Number")
         continue
     else :
