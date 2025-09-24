@@ -9,7 +9,13 @@ def check(n):
         return "invalid Number"
 
 
+while True:
+    n = input("Enter The Number : ")
+    if n.isalpha():
+        print("Invalid Number")
+        continue
+    else :
+        n = int(n)
+        print(check(n))
 
-print(check(3))
-print(check(5))
-print(check(15))
+
